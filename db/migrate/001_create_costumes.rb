@@ -5,7 +5,7 @@ class CreateCostumes < ActiveRecord::Migration
   def change
     create_table :artists do |t|
       t.string :name
-      t.string :price
+      t.float :price
       t.integer :size
       t.string :image_url
     end
